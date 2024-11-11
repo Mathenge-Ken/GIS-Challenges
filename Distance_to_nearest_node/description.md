@@ -8,7 +8,7 @@ In this challenge, the goal is to connect each building's road-facing edge to th
 1. Data Preparation:
  Download data from: export=[download&id=1NfD44cwNDgSt_ukDWc2RzgR0R2Gg3ISe](https://drive.google.com/uc?export=download&id=1NfD44cwNDgSt_ukDWc2RzgR0R2Gg3ISe)
 2. Polygons to Lines(Processing Toolbox > Polygons to Lines): Convert building polygons into line segments representing their edges.
-![Polygons to Lines](images/01 poly_to_line.png)
+![Polygons to Lines](..images/01 poly_to_line.png)
 3. Explode Lines (Processing Toolbox > Explode Lines): Break down any multi-part line geometries into individual line segments for easier processing.
 ![Explode Lines](images/02 explode_lines.png)
 4. Calculate Centroids (Processing Toolbox > Centroids):
